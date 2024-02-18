@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import React from "react";
 
 function FeedbackStats({ feedback }) {
+  // Calculate average feedback
   let average =
     feedback.reduce((accu, cur) => {
       return accu + cur.rating;
