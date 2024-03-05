@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
 
-import AbloutLinkIcon from "./components/AbloutLinkIcon";
+import AbloutIconLink from "./components/AbloutIconLink";
 import FeedbackForm from "./components/FeedbackForm";
 import FeedbackList from "./components/FeedbackList";
 import FeedbackStats from "./components/FeedbackStats";
@@ -46,7 +46,7 @@ function App() {
 
           <Route path="/about" element={<AboutPage />} />
         </Routes>
-        <AbloutLinkIcon />
+        <AbloutIconLink />
       </div>
     </Router>
   );
