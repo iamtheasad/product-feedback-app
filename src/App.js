@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 import AboutIconLink from "./components/AbloutIconLink";
@@ -9,7 +9,6 @@ import Header from "./components/Header";
 import AboutPage from "./components/pages/AboutPage";
 import Post from "./components/Post";
 import { FeedbackProvider } from "./context/FeedbackContext";
-import FeedbackData from "./data/feedbackData";
 
 function App() {
   return (
