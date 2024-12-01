@@ -1,0 +1,14 @@
+{
+  "feedback": [
+    {
+      "id": "3",
+      "rating": 1,
+      "text": "This is data coming from db.json 3"
+    },
+    {
+      "id": "b4a8",
+      "rating": 3,
+      "text": "This is text from postman as a post method"
+    }
+  ]
+}
