@@ -14,9 +14,7 @@ export function FeedbackProvider({ children }) {
 
   // Fetch feedback
   const fetchFeedback = async () => {
-    const response = await fetch(
-      `http://localhost:5000/feedback?_sort=id&_order=desc`
-    );
+    const response = await fetch(`/feedback?_sort=id&_order=desc`);
     console.log(response);
 
     const data = await response.json();
@@ -31,9 +29,19 @@ export function FeedbackProvider({ children }) {
   });
 
   // Add feedback
-  const addFeedback = (newFeedback) => {
+  const addFeedback = async (newFeedback) => {
+    const response = await fetch("/feedback", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(newFeedback),
+    });
+
+    const data = response.json();
+
     newFeedback.id = uuidv4();
-    setFeedback([newFeedback, ...feedback]);
+    setFeedback([data, ...feedback]);
   };
 
   // Delete feedback

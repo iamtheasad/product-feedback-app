@@ -9,6 +9,11 @@
       "id": "b4a8",
       "rating": 3,
       "text": "This is text from postman as a post method"
+    },
+    {
+      "id": "354f",
+      "text": "This is a data coming from as post method with json server package",
+      "rating": 10
     }
   ]
 }
