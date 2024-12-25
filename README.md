@@ -4,3 +4,5 @@
 
 - Using json-server package for create api environment
 - You can add, delete and update feedback
+
+### Traversy is the mentor of this project
