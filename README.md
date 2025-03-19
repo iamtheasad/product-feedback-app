@@ -23,8 +23,8 @@
 
 <h4>Traversy is the mentor of this project</h4>
 
-<h4>This Webiste App Hosted On Netlify</h4>
-
+<h4>This Webiste App Hosted On Netlify And Vercel </h4>
+<span style="color: red;">**🚨 Important:** For seeing the actual behavior of this app, run it locally because `json-server` package doesn't run on Netlify.</span>
 - Link - [https://product-feedback-app-reactjs-rana.netlify.app/](https://product-feedback-app-reactjs-rana.netlify.app/)
 
 <h4>This Webiste App Hosted On Vercel</h4>
