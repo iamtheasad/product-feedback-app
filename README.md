@@ -51,7 +51,7 @@
 - `react-icons` for all kind of icons
 - `uuid` for create id for data item
 
-# What we learn from this project
+# Project Notes
 
 ### `json-server` we can use locally for creating api environment
 
